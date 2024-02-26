@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background-image: url("./assets/images/bg-desktop-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  @apply bg-[#212121]
+}
